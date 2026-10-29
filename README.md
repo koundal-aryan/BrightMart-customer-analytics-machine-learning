@@ -43,7 +43,7 @@ jupyter notebook customer_analytics_ml_project.ipynb
 
 ### 2. Streamlit Community Cloud Deployment
 
-1. Repository: `koundal-aryan/customer-analytics-machine-learning`
+1. Repository: `koundal-aryan/BrightMart-customer-analytics-machine-learning`
 2. Branch: `main`
 3. Main file path: `app.py`
 4. URL format: `https://<your-app-name>.streamlit.app`
