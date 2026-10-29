@@ -35,7 +35,7 @@ from sklearn.metrics import (
 # Page Configuration
 # ---------------------------------------------------------
 st.set_page_config(
-    page_title="Customer Analytics Dashboard",
+    page_title="BrightMart Retail — Customer Analytics & Machine Learning",
     page_icon="🛒",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -289,7 +289,7 @@ clf_res = train_classification_models(df)
 # ---------------------------------------------------------
 # Sidebar Navigation
 # ---------------------------------------------------------
-st.sidebar.markdown("### 🛒 BrightMart Analytics")
+st.sidebar.markdown("### 🛒 BrightMart Retail")
 st.sidebar.markdown("**Customer Analytics & Machine Learning**")
 st.sidebar.markdown("---")
 
@@ -318,7 +318,7 @@ st.sidebar.info("""
 # PAGE 1: OVERVIEW
 # ---------------------------------------------------------
 if menu == "Overview":
-    st.markdown('<div class="main-header">Customer Analytics & Machine Learning Dashboard</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">BrightMart Retail — Customer Analytics & Machine Learning</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Data-Driven Customer Segmentation, Sales Prediction & Marketing Insights</div>', unsafe_allow_html=True)
     
     # KPI Cards
@@ -645,4 +645,4 @@ elif menu == "Business Insights":
 # ---------------------------------------------------------
 # Footer
 # ---------------------------------------------------------
-st.markdown('<div class="footer-text">Customer Analytics & Machine Learning Project | MBA Data Science & AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer-text">BrightMart Retail — Customer Analytics & Machine Learning Project | MBA Data Science & AI</div>', unsafe_allow_html=True)

@@ -1,5 +1,5 @@
-# Customer Analytics & Machine Learning Project
-## BrightMart Retail Analytics: Customer Segmentation, Sales Prediction & Marketing Insights
+# BrightMart Retail — Customer Analytics & Machine Learning
+## Data-Driven Customer Segmentation, Sales Prediction & Marketing Insights
 
 An end-to-end analytical modelling and machine learning project built for customer analytics, sales forecasting, customer segmentation, and marketing campaign propensity prediction.
 
