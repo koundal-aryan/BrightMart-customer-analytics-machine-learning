@@ -1,68 +1,80 @@
 # BrightMart Retail — Customer Analytics & Machine Learning
-## Data-Driven Customer Segmentation, Sales Prediction & Marketing Insights
 
-[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://brightmart-retail-analytics.streamlit.app)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning)
-[![Academic Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning/blob/main/customer_analytics_ml_project.ipynb)
-
-An end-to-end analytical modelling and machine learning project built for customer analytics, sales forecasting, customer segmentation, and marketing campaign propensity prediction.
+> **Mini Project | Analytical Modelling with Machine Learning**
 
 ---
 
-## 🌐 Live Streamlit Dashboard & Project Links
+## 📊 Project Overview
 
-- 🚀 **Live Streamlit Dashboard:** [https://brightmart-retail-analytics.streamlit.app](https://brightmart-retail-analytics.streamlit.app) *(or deploy via [Streamlit Cloud](https://share.streamlit.io))*
-- 📓 **Interactive Jupyter Notebook:** [View Notebook with Rendered Charts](https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning/blob/main/customer_analytics_ml_project.ipynb)
-- 📦 **GitHub Repository:** [https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning](https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning)
+A complete machine learning analytics project for BrightMart Retail, covering data preparation, EDA, regression, classification, and clustering on a synthetic retail customer dataset.
+
+| Item | Detail |
+|------|--------|
+| **Dataset** | `BrightMart_ML_Dataset.csv` — 648 customer records, 10 features |
+| **Notebook** | `customer_analytics_ml_project.ipynb` — all tasks A–F with visible code & plots |
+| **Dashboard** | `dashboard.html` — self-contained HTML dashboard (open in any browser) |
+| **Author** | Aryan Koundal |
 
 ---
 
-## Project Repository & Implementation Structure
-This project is dedicated strictly to Customer Analytics & Retail Machine Learning. It contains ONLY the required files:
+## 🧠 ML Models & Results
+
+| Model | Task | Key Metric |
+|-------|------|-----------|
+| **Linear Regression** | Sales Prediction | R² = 0.8727, MAE = ₹13.10k |
+| **Decision Tree** | Campaign Response | Accuracy = 77.69%, F1 = 0.8199 |
+| **K-Means (K=3)** | Customer Segmentation | 3 clusters: Premium Champions, Budget Conscious, Aspirational Enthusiasts |
+| **Random Forest** | Campaign Response | Accuracy = 88.46%, F1 = 0.9123 |
+
+---
+
+## 📁 Files
 
 ```
 BrightMart-customer-analytics-machine-learning/
-│
-├── BrightMart_ML_Dataset.csv                  # The actual 648-record retail dataset
-├── customer_analytics_ml_project.ipynb        # Complete 16-section academic Jupyter Notebook (with rendered plots)
-├── app.py                                     # Professional interactive Streamlit dashboard
-├── requirements.txt                           # Minimal deployment dependencies
-├── .gitignore                                 # Git configuration
-└── README.md                                  # Project overview and deployment guide
+├── customer_analytics_ml_project.ipynb   ← Main notebook (Tasks A–F + Q&A)
+├── dashboard.html                         ← Standalone HTML dashboard (no server needed)
+├── BrightMart_ML_Dataset.csv             ← Cleaned dataset (648 records)
+├── requirements.txt                       ← Python dependencies
+└── README.md
 ```
 
 ---
 
-## 1. How to Run Locally
+## 🚀 Getting Started
 
-### Install Dependencies
+### Run the Notebook
 ```bash
 pip install -r requirements.txt
-```
-
-### Run the Streamlit Dashboard
-```bash
-streamlit run app.py
-```
-Open your browser at `http://localhost:8501`.
-
-### Run the Jupyter Notebook
-```bash
 jupyter notebook customer_analytics_ml_project.ipynb
 ```
 
+### View the Dashboard
+Simply open `dashboard.html` in any browser — no server required:
+```bash
+open dashboard.html        # macOS
+start dashboard.html       # Windows
+xdg-open dashboard.html    # Linux
+```
+
 ---
 
-## 2. Streamlit Community Cloud Deployment
+## 📈 Tasks Completed
 
-To deploy your live app on Streamlit Cloud:
+| Task | Description | Status |
+|------|-------------|--------|
+| **Task A** | Data Preparation & EDA (2+ visualizations) | ✅ |
+| **Task B** | Linear Regression — Sales Prediction | ✅ |
+| **Task C** | Decision Tree Classifier | ✅ |
+| **Task D** | K-Means Customer Segmentation | ✅ |
+| **Task E** | Random Forest + Model Comparison | ✅ |
+| **Task F** | Business Recommendations & Limitations | ✅ |
+| **Q1–Q9** | 9 Analysis Questions Answered | ✅ |
 
-1. Open **[share.streamlit.io](https://share.streamlit.io)**
-2. Click **"New app"**
-3. Select:
-   - **Repository:** `koundal-aryan/BrightMart-customer-analytics-machine-learning`
-   - **Branch:** `main` (or `master`)
-   - **Main file path:** `app.py`
-   - **App URL:** `brightmart-retail-analytics.streamlit.app`
-4. Click **"Deploy"**
+---
+
+## 🔗 Links
+
+- **GitHub Repository:** [koundal-aryan/BrightMart-customer-analytics-machine-learning](https://github.com/koundal-aryan/BrightMart-customer-analytics-machine-learning)
+- **Dashboard:** Open `dashboard.html` locally in your browser
+- **Notebook:** `customer_analytics_ml_project.ipynb` (view on GitHub or run locally)
