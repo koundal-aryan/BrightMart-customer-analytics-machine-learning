@@ -119,11 +119,11 @@ Six visualizations covering sales distribution, ad spend vs sales relationship, 
 
 ### Two Key Decision Rules
 
-**Rule 1:** `Purchase_Frequency ≤ 10` AND `Spending_Score ≤ 45` → **Predict No**
-> Low-frequency, low-spending customers are unlikely to respond to campaigns — avoid wasting ad spend on them.
+**Rule 1:** `Spending_Score ≤ 23.5` → **Predict No** (will not respond)
+> 65 training customers fall here and 63 did not respond (97%). Do not spend advertising budget on them.
 
-**Rule 2:** `Annual_Income > 80` AND `Spending_Score > 60` → **Predict Yes**
-> High-income, high-spending customers are prime campaign targets — prioritize them for maximum ROI.
+**Rule 2:** `Spending_Score > 54.5` and `Age ≤ 63.5` → **Predict Yes** (will respond)
+> 252 customers fall here and 247 responded (98%). This is the core audience for every campaign.
 
 ---
 
