@@ -12,21 +12,6 @@
 
 ---
 
-## 📋 Table of Contents
-1. [Project Overview](#1-project-overview)
-2. [Dataset](#2-dataset)
-3. [Exploratory Data Analysis — Task A](#3-exploratory-data-analysis--task-a)
-4. [Linear Regression — Task B](#4-linear-regression--task-b)
-5. [Decision Tree Classifier — Task C](#5-decision-tree-classifier--task-c)
-6. [K-Means Segmentation — Task D](#6-k-means-segmentation--task-d)
-7. [Random Forest — Task E](#7-random-forest--task-e)
-8. [Business Recommendations — Task F](#8-business-recommendations--task-f)
-9. [Analysis Questions Q1–Q9](#9-analysis-questions-q1q9)
-10. [Conclusion](#10-conclusion)
-11. [Files & Setup](#11-files--setup)
-
----
-
 ## 1. Project Overview
 
 A complete end-to-end machine learning project for **BrightMart Retail** that applies four ML models to analyse 648 synthetic retail customer records. The project covers data preparation, exploratory analysis, sales prediction, customer classification, and customer segmentation.
